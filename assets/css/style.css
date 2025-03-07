@@ -2175,8 +2175,8 @@ footer .global_btn::after {
   margin-bottom: 2rem;
 }
 .our_work_sec .title + .text {
-  font-weight: bold;
-  color: #6d6d6d;
+  /* font-weight: bold; */
+  color: #000000;
   margin-bottom: 4rem;
 }
 .testimonial_cards {
@@ -2294,8 +2294,8 @@ footer .global_btn::after {
 }
 .portfolio_banner_sec .text,
 .portfolio_body_sec1 .text {
-  font-weight: 700;
-  color: #6d6d6d;
+  /* font-weight: 700; */
+  color: #000000;
 }
 .portfolio_banner_sec .p_banner_img {
   position: absolute;
@@ -2403,6 +2403,96 @@ footer .global_btn::after {
 }
 /* Portfolio Page End */
 
+/* privacy policy page start */
+.privacy_policy_sec{
+  position: relative;
+  padding: 7rem 4rem 5rem;
+}
+.privacy_policy_sec .title2{
+  letter-spacing: 0;
+  text-align: left;
+}
+.privacy_policy_sec p,.privacy_policy_sec li{
+  color: #6D6D6D;
+  font-weight: 400;
+}
+.privacy_policy_sec a{
+  color: #1B91FF;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.mb_30{
+  margin-bottom: 30px;
+}
+.mb_20{
+  margin-bottom: 20px;
+}
+.mb_16{
+  margin-bottom: 16px;
+}
+.mb_10{
+  margin-bottom: 10px;
+}
+.privacy_policy_sec h1{
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 5rem;
+}
+.privacy_policy_sec h1:not(.privacy_contect_info h1.title2):after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -1rem;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 4px;
+  background-color: #AEE80F;
+}
+.privacy_policy_sec hr{
+  color: #000;
+  margin: 20px 0 30px;
+}
+.privacy_policy_sec h3.title2{
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.privacy_policy_sec h5{
+  font-weight: 600;
+  color: #3E3E3E;
+} 
+.privacy_policy_sec ul{
+  padding-left: 1rem;
+}
+.privacy_policy_sec ul li{
+  list-style-type: disc;
+}
+.privacy_policy_sec .content_wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  gap: 3rem;
+}
+.privacy_policy_sec .inner_content{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+}
+.privacy_policy_sec .inner_content h5{
+  flex-basis: 100%;
+}
+.privacy_policy_sec .content_wrapper2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+}
+.privacy_contect_info h1.title2{
+  text-align: left;
+  color: #ff7f22;
+  margin: 0 0 10px;
+}
+/* privacy policy page end */
+
 .banner_step_1 .title {
   font-size: 4rem;
 }
@@ -2456,6 +2546,18 @@ footer .global_btn::after {
 
 .dropdown_content ul li h3.text{
   text-transform: capitalize;
+}
+.client_reviews_sec .testimonial .sub_title,.client_reviews_sec .testimonial .regular_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+}
+.client_reviews_sec .testimonial .regular_text{
+  -webkit-line-clamp: 3;
 }
 
 /* Media Queries Start */
@@ -2690,7 +2792,7 @@ footer .global_btn::after {
   }
   .c_wrapper .c_cards div img {
     width: 100%;
-    height: 80px;
+    height: 100px;
     object-fit: contain;
     object-position: center;
     margin: 0;
@@ -2878,7 +2980,7 @@ footer .global_btn::after {
     cursor: pointer;
   }
   button.custom_arrow.prev.slick-arrow {
-    left: 45%;
+    left: 35%;
     transform: translateX(20px);
     animation: leftArrow 1.5s ease-in-out infinite alternate;
   }
@@ -3372,7 +3474,7 @@ footer .global_btn::after {
     padding: 0.5rem;
   }
   .c_wrapper .c_cards div img {
-    width: 60px;
+    width: 100px;
   }
   .about_clients li img {
     width: 100px;
@@ -3406,10 +3508,10 @@ footer .global_btn::after {
     gap: 0.5rem;
   }
   .sideBar a.regular_text {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .sideBar.active ul:not(.sideBar .dropdown_content ul) {
-    gap: 1rem;
+    gap: 2rem;
     /* height: 100%; */
   }
   .portfolio_inner_wrapper .blogs_card .card_img {
@@ -3429,15 +3531,21 @@ footer .global_btn::after {
     font-size: 1.25rem;
   }
   button.custom_arrow.prev.slick-arrow {
-    left: 40%;
+    left: 35%;
   }
   button.custom_arrow.next.slick-arrow {
-    left: 60%;
+    left: 55%;
   }
   .seo_sec .cards_wrapper .seo_card .card_content ul li {
     margin-bottom: 0.5rem;
     font-size: 1rem;
   }
+  .c_wrapper .c_cards div{
+    gap: 0;
+  }
+  .provenResults_cards_wrapper .provenResults_card h3 {
+    font-size: 18px;
+}
 }
 
 @media (max-width: 480px) {
@@ -3446,7 +3554,7 @@ footer .global_btn::after {
     height: 120px;
   }
   .c_wrapper .c_cards div p.text {
-    font-size: 13px;
+    font-size: 14px;
   }
   .home_banner .scroller .buttons_group {
     gap: 0.5rem;

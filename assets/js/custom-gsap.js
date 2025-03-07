@@ -171,7 +171,7 @@ function animateCardsVertical() {
   if (images.length === 0) return; // Stop execution if no cards found
 
   // Adjusted total scroll distance
-  const endTime = 500 * (images.length - 1); // Skipping first card
+  const endTime = 1000 * (images.length - 1); // Skipping first card
 
   gsap.set("#home_banner .slide-container", {
     height: () => {

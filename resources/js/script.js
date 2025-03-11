@@ -12,16 +12,20 @@
 
 $(document).ready(function () {
   // Loader Script
-  $("body").removeClass("loaded");
+  // $("body").removeClass("loaded");
 
-  $(window).on("load", function () {
-    $("html, body").animate({ scrollTop: 0 },300);
+  // $(window).on("load", function () {
+  //   $("html, body").animate({ scrollTop: 0 },300);
 
-    setTimeout(function () {
-      $("body").addClass("loaded");
-    }, 300);
-  });
-  
+  //   setTimeout(function () {
+  //     $("body").addClass("loaded");
+  //   }, 300);
+  // });
+
+  setTimeout(() => {
+    $('#loader').fadeOut()
+  }, 1000);
+
   var backToTop = $("#backToTop");
 
   // Show or hide the button based on scroll position
@@ -143,7 +147,7 @@ $(document).ready(() => {
 
     if (!$SeoCards.hasClass("slick-initialized")) {
       $SeoCards.slick({
-        arrows:true,
+        arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,

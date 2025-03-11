@@ -1,0 +1,82 @@
+{
+  "_index-BtuGy7By.js": {
+    "file": "assets/index-BtuGy7By.js",
+    "name": "index"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-3qJhC5fi.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/style.css": {
+    "file": "assets/style-CQXThLsJ.css",
+    "src": "resources/css/style.css",
+    "isEntry": true
+  },
+  "resources/fonts/LufgaBold.ttf": {
+    "file": "assets/LufgaBold-D80OgmSm.ttf",
+    "src": "resources/fonts/LufgaBold.ttf"
+  },
+  "resources/fonts/LufgaMedium.ttf": {
+    "file": "assets/LufgaMedium-CoKAChfp.ttf",
+    "src": "resources/fonts/LufgaMedium.ttf"
+  },
+  "resources/fonts/LufgaRegular.ttf": {
+    "file": "assets/LufgaRegular-DxIVXNDB.ttf",
+    "src": "resources/fonts/LufgaRegular.ttf"
+  },
+  "resources/fonts/LufgaSemiBold.ttf": {
+    "file": "assets/LufgaSemiBold-B2O7hYpB.ttf",
+    "src": "resources/fonts/LufgaSemiBold.ttf"
+  },
+  "resources/fonts/ZtShago-Bold.ttf": {
+    "file": "assets/ZtShago-Bold-DhCktuK7.ttf",
+    "src": "resources/fonts/ZtShago-Bold.ttf"
+  },
+  "resources/images/get_touct_after.png": {
+    "file": "assets/get_touct_after-B5vUVhXQ.png",
+    "src": "resources/images/get_touct_after.png"
+  },
+  "resources/images/get_touct_before.png": {
+    "file": "assets/get_touct_before-CpZV7i7C.png",
+    "src": "resources/images/get_touct_before.png"
+  },
+  "resources/images/input_type1.png": {
+    "file": "assets/input_type1--sTSrFHg.png",
+    "src": "resources/images/input_type1.png"
+  },
+  "resources/images/input_type2.png": {
+    "file": "assets/input_type2-Dof2N5S6.png",
+    "src": "resources/images/input_type2.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C_XLL3Mr.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-BtuGy7By.js"
+    ]
+  },
+  "resources/js/bootstrap.js": {
+    "file": "assets/bootstrap-frUW4IfS.js",
+    "name": "bootstrap",
+    "src": "resources/js/bootstrap.js",
+    "isEntry": true,
+    "imports": [
+      "_index-BtuGy7By.js"
+    ]
+  },
+  "resources/js/custom-gsap.js": {
+    "file": "assets/custom-gsap-DZF4TMG4.js",
+    "name": "custom-gsap",
+    "src": "resources/js/custom-gsap.js",
+    "isEntry": true
+  },
+  "resources/js/script.js": {
+    "file": "assets/script-Dhbr5RP-.js",
+    "name": "script",
+    "src": "resources/js/script.js",
+    "isEntry": true
+  }
+}

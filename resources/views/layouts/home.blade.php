@@ -29,9 +29,9 @@
 </head>
 
 <body>
-    <div id="loader">
+    {{-- <div id="loader">
         <div class="spinner"></div>
-    </div>
+    </div> --}}
 
     <!-- Header Section Start -->
     <header>
@@ -74,8 +74,7 @@
                                     communicate key insights
                                     instantly.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}"
-                                        alt="Arrow Icon">
+                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}" alt="Arrow Icon">
                                 </div>
                             </a>
                         </li>
@@ -92,8 +91,7 @@
                                     guides that keep teams
                                     focused and on track.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}"
-                                        alt="Arrow Icon">
+                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}" alt="Arrow Icon">
                                 </div>
                             </a>
                         </li>
@@ -109,8 +107,7 @@
                                     presentations that tell a compelling story, build trust, and help you secure your
                                     needed funding.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}"
-                                        alt="Arrow Icon">
+                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}" alt="Arrow Icon">
                                 </div>
                             </a>
                         </li>
@@ -126,8 +123,7 @@
                                     unify your message, ensuring clarity, engagement, and consistency across all
                                     channels.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}"
-                                        alt="Arrow Icon">
+                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}" alt="Arrow Icon">
                                 </div>
                             </a>
                         </li>
@@ -143,8 +139,7 @@
                                     strategically aligned brand identities that boost recognition, build trust, and set
                                     you apart</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}"
-                                        alt="Arrow Icon">
+                                    <img src="{{ asset('resources/images/service_arrow_icon.svg') }}" alt="Arrow Icon">
                                 </div>
                             </a>
                         </li>
@@ -334,8 +329,7 @@
                                 <img src="{{ asset('resources/images/insta_icon.svg') }}" alt="Instagram" />
                             </a>
                             <a href="javascript:;">
-                                <img src="{{ asset('resources/images/twitter_icon.svg') }}"
-                                    alt="Twitter" />
+                                <img src="{{ asset('resources/images/twitter_icon.svg') }}" alt="Twitter" />
                             </a>
                             <a href="javascript:;">
                                 <img src="{{ asset('resources/images/yt_icon.svg') }}" alt="Youtube" />
@@ -369,20 +363,17 @@
                                         alt="Geo Trust" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img src="{{ asset('resources/images/certificate_img2.svg') }}"
-                                        alt="DMCA" />
+                                    <img src="{{ asset('resources/images/certificate_img2.svg') }}" alt="DMCA" />
                                 </a>
                                 <a href="javascript:;">
                                     <img src="{{ asset('resources/images/certificate_img3.svg') }}"
                                         alt="Protect ED" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img src="{{ asset('resources/images/certificate_img4.svg') }}"
-                                        alt="MCAfee" />
+                                    <img src="{{ asset('resources/images/certificate_img4.svg') }}" alt="MCAfee" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img src="{{ asset('resources/images/certificate_img5.svg') }}"
-                                        alt="ADA" />
+                                    <img src="{{ asset('resources/images/certificate_img5.svg') }}" alt="ADA" />
                                 </a>
                             </div>
                         </div>
@@ -425,6 +416,13 @@
 
     <!-- AOS Animation Cdn -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.11/jquery.lazy.min.js"></script>
+    <script>
+        $(function() {
+            $("img.lazyload").lazy();
+        });
+    </script>
 
 </body>
 

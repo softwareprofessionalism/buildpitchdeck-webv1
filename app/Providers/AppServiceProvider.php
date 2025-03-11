@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\URL; // ✅ Import this!
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,9 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Schema::defaultStringLength(125);
-    	if ($this->app->environment('production')) {
-            URL::forceScheme('https');
+        if ($this->app->environment('production')) {
+            URL::forceScheme('https'); // ✅ Forces HTTPS in production
         }
     }
 }

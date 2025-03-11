@@ -17,9 +17,10 @@ export default defineConfig({
     ],
     build: {
         outDir: 'public/build', // 👈 Make sure the build output is inside public
+        emptyOutDir: true,
         manifest: true, // 👈 Ensure manifest.json is generated
     },
     server: {
-        origin: 'http://localhost/bpd', // 👈 Fix Vite URL
+        origin: 'https://buildpitchdeck.com/', // 👈 Fix Vite URL
     }
 });

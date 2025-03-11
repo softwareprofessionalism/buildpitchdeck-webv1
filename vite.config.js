@@ -16,11 +16,24 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build', // 👈 Make sure the build output is inside public
-        emptyOutDir: true,
-        manifest: true, // 👈 Ensure manifest.json is generated
+        outDir: 'public/build', // ✅ Make sure assets are placed in public
+        emptyOutDir: true, // ✅ Clears old assets
+        manifest: true, // ✅ Required for Laravel to find assets
+        rollupOptions: {
+            input: {
+                main: 'resources/js/app.js',
+            },
+            output: {
+                assetFileNames: 'assets/[name].[hash][extname]', // ✅ Ensures unique hashed filenames
+                chunkFileNames: 'assets/[name].[hash].js',
+                entryFileNames: 'assets/[name].[hash].js',
+            }
+        }
     },
     server: {
-        origin: 'https://buildpitchdeck.com/', // 👈 Fix Vite URL
+        strictPort: true,
+        hmr: {
+            host: 'buildpitchdeck.com',
+        },
     }
 });

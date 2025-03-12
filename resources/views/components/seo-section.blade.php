@@ -1,10 +1,10 @@
   <!-- SEO Section Start -->
   <section class="seo_sec" id="seo_sec">
-      <img class="lazyload" data-src="{{ asset('resources/images/star_green.svg') }}" alt="star" width="200" height="200"
+      <img class="lazyload" data-src="{{ asset('/images/star_green.svg') }}" alt="star" width="200" height="200"
           class="seo_star_images">
-      <img class="lazyload" data-src="{{ asset('resources/images/star_orange.svg') }}" alt="star" width="350" height="350"
+      <img class="lazyload" data-src="{{ asset('/images/star_orange.svg') }}" alt="star" width="350" height="350"
           class="seo_star_images">
-      <img class="lazyload" data-src="{{ asset('resources/images/star_blue.svg') }}" alt="star" width="200" height="200"
+      <img class="lazyload" data-src="{{ asset('/images/star_blue.svg') }}" alt="star" width="200" height="200"
           class="seo_star_images">
       <div class="container">
           <div class="row justify-content-center">
@@ -32,7 +32,7 @@
                       <h3 class="sub_title">Typical SEO agency</h3>
                   </div>
                   <div class="card_icon">
-                      <img class="lazyload" data-src="{{ asset('resources/images/seo_icon2.svg') }}" alt="Card Icon">
+                      <img class="lazyload" data-src="{{ asset('/images/seo_icon2.svg') }}" alt="Card Icon">
                   </div>
               </div>
               <div class="card_content">
@@ -54,10 +54,10 @@
           <div class="seo_card active">
               <div class="card_top d-flex align-items-center justify-content-between">
                   <div class="card_logo">
-                      <img class="lazyload" data-src="{{ asset('resources/images/seo_logo.png') }}" alt="Logo">
+                      <img class="lazyload" data-src="{{ asset('/images/seo_logo.png') }}" alt="Logo">
                   </div>
                   <div class="card_icon">
-                      <img class="lazyload" data-src="{{ asset('resources/images/seo_icon1.svg') }}" alt="Card Icon">
+                      <img class="lazyload" data-src="{{ asset('/images/seo_icon1.svg') }}" alt="Card Icon">
                   </div>
               </div>
               <div class="card_content">
@@ -82,7 +82,7 @@
                       <h3 class="sub_title">In-house SEO</h3>
                   </div>
                   <div class="card_icon">
-                      <img class="lazyload" data-src="{{ asset('resources/images/seo_icon3.svg') }}" alt="Card Icon">
+                      <img class="lazyload" data-src="{{ asset('/images/seo_icon3.svg') }}" alt="Card Icon">
                   </div>
               </div>
               <div class="card_content">

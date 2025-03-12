@@ -21,7 +21,7 @@
                                   Trucks & Trailers
                               </div>
                               <div class="c_img">
-                                  <img class="lazyload" data-src="{{ asset('resources/images/proven_results_card2.png') }}"
+                                  <img class="lazyload" data-src="{{ asset('/images/proven_results_card2.png') }}"
                                       width="370" height="312" alt="Trucks & Trailers">
                               </div>
                           </div>
@@ -41,7 +41,7 @@
                                   <h3 class="mb-0">increase in SEO leads</h3>
                                   <a href="javascript:;" class="d-flex align-items-center align-self-end gap-3">
                                       <span class="text">view case study</span>
-                                      <img class="lazyload" data-src="{{ asset('resources/images/right_icon.svg') }}" alt="Arrow">
+                                      <img class="lazyload" data-src="{{ asset('/images/right_icon.svg') }}" alt="Arrow">
                                   </a>
                               </div>
                           </div>
@@ -53,7 +53,7 @@
                                   Car washing
                               </div>
                               <div class="c_img">
-                                  <img class="lazyload" data-src="{{ asset('resources/images/proven_results_card1.png') }}"
+                                  <img class="lazyload" data-src="{{ asset('/images/proven_results_card1.png') }}"
                                       width="370" height="312" alt="Car washing">
                               </div>
                           </div>
@@ -73,7 +73,7 @@
                                   <h3 class="mb-0">increase in user's conversation daily</h3>
                                   <a href="javascript:;" class="d-flex align-items-center align-self-end gap-3">
                                       <span class="text">view case study</span>
-                                      <img class="lazyload" data-src="{{ asset('resources/images/right_icon.svg') }}" alt="Arrow">
+                                      <img class="lazyload" data-src="{{ asset('/images/right_icon.svg') }}" alt="Arrow">
                                   </a>
                               </div>
                           </div>
@@ -85,7 +85,7 @@
                                   manufacturing
                               </div>
                               <div class="c_img">
-                                  <img class="lazyload" data-src="{{ asset('resources/images/proven_results_card3.png') }}"
+                                  <img class="lazyload" data-src="{{ asset('/images/proven_results_card3.png') }}"
                                       width="370" height="312" alt="Manufacturing">
                               </div>
                           </div>
@@ -105,7 +105,7 @@
                                   <h3 class="mb-0">Ranking for all primary services</h3>
                                   <a href="javascript:;" class="d-flex align-items-center align-self-end gap-3">
                                       <span class="text">view case study</span>
-                                      <img class="lazyload" data-src="{{ asset('resources/images/right_icon.svg') }}" alt="Arrow">
+                                      <img class="lazyload" data-src="{{ asset('/images/right_icon.svg') }}" alt="Arrow">
                                   </a>
                               </div>
                           </div>

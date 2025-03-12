@@ -21,7 +21,7 @@
     <!-- AOS Animation Cdn -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    @vite(['resources/css/style.css', 'resources/js/bootstrap.js', 'resources/js/custom-gsap.js', 'resources/js/script.js'])
+    @vite(['resources/css/style.css', 'resources/js/bootstrap.js'])
 
 </head>
 
@@ -61,7 +61,8 @@
                         <li class="bg_blue">
                             <a href="info-graphics-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
                                         alt="Graphics Design">
                                     <h3 class="text">info graphics design</h3>
                                 </div>
@@ -71,7 +72,8 @@
                                     communicate key insights
                                     instantly.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -79,7 +81,8 @@
                         <li class="bg_green">
                             <a href="play-book-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
                                         alt="play book design">
                                     <h3 class="text">Play book design</h3>
                                 </div>
@@ -89,7 +92,8 @@
                                     guides that keep teams
                                     focused and on track.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -97,7 +101,8 @@
                         <li class="bg_yellow">
                             <a href="pitch-deck-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="Pitch deck design">
                                     <h3 class="text">Pitch deck design</h3>
                                 </div>
@@ -106,7 +111,8 @@
                                     presentations that tell a compelling story, build trust, and help you secure your
                                     needed funding.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -114,7 +120,8 @@
                         <li class="bg_orange">
                             <a href="communication-design .html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="communication design ">
                                     <h3 class="text">communication design </h3>
                                 </div>
@@ -123,7 +130,8 @@
                                     unify your message, ensuring clarity, engagement, and consistency across all
                                     channels.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -131,7 +139,8 @@
                         <li class="bg_pink">
                             <a href="brand-identity-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
                                         alt="Brand identity Design">
                                     <h3 class="text">Brand identity Design </h3>
                                 </div>
@@ -140,7 +149,8 @@
                                     strategically aligned brand identities that boost recognition, build trust, and set
                                     you apart</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -158,7 +168,8 @@
                                     presentations that captivate, communicate effectively, and leave a lasting
                                     impression.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -185,7 +196,8 @@
                         <li class="bg_blue">
                             <a href="info-graphics-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
                                         alt="Graphics Design">
                                     <h3 class="text">info graphics design</h3>
                                 </div>
@@ -195,7 +207,8 @@
                                     communicate key insights
                                     instantly.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -203,7 +216,8 @@
                         <li class="bg_green">
                             <a href="play-book-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
                                         alt="play book design">
                                     <h3 class="text">Play book design</h3>
                                 </div>
@@ -213,7 +227,8 @@
                                     guides that keep teams
                                     focused and on track.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -221,7 +236,8 @@
                         <li class="bg_yellow">
                             <a href="pitch-deck-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="Pitch deck design">
                                     <h3 class="text">Pitch deck design</h3>
                                 </div>
@@ -230,7 +246,8 @@
                                     presentations that tell a compelling story, build trust, and help you secure your
                                     needed funding.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -238,7 +255,8 @@
                         <li class="bg_orange">
                             <a href="communication-design .html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="communication design ">
                                     <h3 class="text">communication design </h3>
                                 </div>
@@ -247,7 +265,8 @@
                                     unify your message, ensuring clarity, engagement, and consistency across all
                                     channels.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -255,7 +274,8 @@
                         <li class="bg_pink">
                             <a href="brand-identity-design.html">
                                 <div class="d-flex align-items-center gap-2">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
                                         alt="Brand identity Design">
                                     <h3 class="text">Brand identity Design </h3>
                                 </div>
@@ -264,7 +284,8 @@
                                     strategically aligned brand identities that boost recognition, build trust, and set
                                     you apart</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -282,7 +303,8 @@
                                     presentations that captivate, communicate effectively, and leave a lasting
                                     impression.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -369,23 +391,28 @@
                             <h3 class="sub_title">Certified</h3>
                             <div class="Certified_div d-flex align-items-center gap-2 flex-wrap">
                                 <a href="javascript:;">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/certificate_img1.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/certificate_img1.svg') }}"
                                         alt="Geo Trust" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/certificate_img2.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/certificate_img2.svg') }}"
                                         alt="DMCA" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/certificate_img3.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/certificate_img3.svg') }}"
                                         alt="Protect ED" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/certificate_img4.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/certificate_img4.svg') }}"
                                         alt="MCAfee" />
                                 </a>
                                 <a href="javascript:;">
-                                    <img class="lazyload" data-src="{{ asset('/resources/images/certificate_img5.svg') }}"
+                                    <img class="lazyload"
+                                        data-src="{{ asset('/resources/images/certificate_img5.svg') }}"
                                         alt="ADA" />
                                 </a>
                             </div>
@@ -437,6 +464,9 @@
             $("img.lazyload").lazy();
         });
     </script>
+
+    <script src="{{ asset('/resources/js/custom-gsap.js') }}"></script>
+    <script src="{{ asset('/resources/js/script.js') }}"></script>
 
 </body>
 

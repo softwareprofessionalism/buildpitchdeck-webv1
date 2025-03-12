@@ -24,7 +24,7 @@
 
     <!-- Our Css File -->
 
-    <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
 
 </head>
 
@@ -468,9 +468,9 @@
         });
     </script>
 
-    <script src="{{ asset('/public/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('/public/js/custom-gsap.js') }}"></script>
-    <script src="{{ asset('/public/js/script.js') }}"></script>
+    <script src="{{ asset('/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('/js/custom-gsap.js') }}"></script>
+    <script src="{{ asset('/js/script.js') }}"></script>
 
 </body>
 

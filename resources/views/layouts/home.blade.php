@@ -21,7 +21,7 @@
     <!-- AOS Animation Cdn -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    @vite(['resources/css/style.css', 'resources/js/bootstrap.js'])
+    <link rel="stylesheet" href="{{ asset('/resources/css/style.css') }}">
 
 </head>
 
@@ -467,6 +467,7 @@
 
     <script src="{{ asset('/resources/js/custom-gsap.js') }}"></script>
     <script src="{{ asset('/resources/js/script.js') }}"></script>
+    <script src="{{ asset('/resources/js/bootstrap.js') }}"></script>
 
 </body>
 

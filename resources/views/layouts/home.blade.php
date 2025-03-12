@@ -25,6 +25,9 @@
     <!-- Our Css File -->
 
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+    <script src="{{ asset('/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('/js/custom-gsap.js') }}"></script>
+    <script src="{{ asset('/js/script.js') }}"></script>
 
 </head>
 
@@ -467,10 +470,6 @@
             $("img.lazyload").lazy();
         });
     </script>
-
-    <script src="{{ asset('/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('/js/custom-gsap.js') }}"></script>
-    <script src="{{ asset('/js/script.js') }}"></script>
 
 </body>
 

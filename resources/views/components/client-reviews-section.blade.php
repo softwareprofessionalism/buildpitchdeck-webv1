@@ -20,19 +20,19 @@
                         Highly recommend!</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="rating_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
                         </div>
                         <div class="socialIcon_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/facebook.svg') }}" alt="Facebook">
+                            <img class="lazyload" data-src="{{ asset('/public/images/facebook.svg') }}" alt="Facebook">
                         </div>
                     </div>
                 </div>
                 <div class="t_footer d-flex align-items-center gap-2">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/client2.svg') }}" alt="Client">
+                    <img class="lazyload" data-src="{{ asset('/public/images/client2.svg') }}" alt="Client">
                     <div>
                         <p>Sarah Martin</p>
                         <p>Marketing Manager</p>
@@ -47,19 +47,19 @@
                         game-changer!</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="rating_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
                         </div>
                         <div class="socialIcon_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/google.svg') }}" alt="Google">
+                            <img class="lazyload" data-src="{{ asset('/public/images/google.svg') }}" alt="Google">
                         </div>
                     </div>
                 </div>
                 <div class="t_footer d-flex align-items-center gap-2">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/client1.svg') }}" alt="Client">
+                    <img class="lazyload" data-src="{{ asset('/public/images/client1.svg') }}" alt="Client">
                     <div>
                         <p>James White</p>
                         <p>Sales Director</p>
@@ -74,19 +74,19 @@
                         happier.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="rating_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
                         </div>
                         <div class="socialIcon_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/instagram.svg') }}" alt="Instagram">
+                            <img class="lazyload" data-src="{{ asset('/public/images/instagram.svg') }}" alt="Instagram">
                         </div>
                     </div>
                 </div>
                 <div class="t_footer d-flex align-items-center gap-2">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/client2.svg') }}" alt="Client">
+                    <img class="lazyload" data-src="{{ asset('/public/images/client2.svg') }}" alt="Client">
                     <div>
                         <p>Lisa David</p>
                         <p>Startup Founder</p>
@@ -101,19 +101,19 @@
                         engaging.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="rating_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
                         </div>
                         <div class="socialIcon_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/google.svg') }}" alt="Google">
+                            <img class="lazyload" data-src="{{ asset('/public/images/google.svg') }}" alt="Google">
                         </div>
                     </div>
                 </div>
                 <div class="t_footer d-flex align-items-center gap-2">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/client3.svg') }}" alt="Client">
+                    <img class="lazyload" data-src="{{ asset('/public/images/client3.svg') }}" alt="Client">
                     <div>
                         <p>Michael Brown</p>
                         <p>Founder and CEO</p>
@@ -129,19 +129,19 @@
                         for better!</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="rating_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
+                            <img class="lazyload" data-src="{{ asset('/public/images/fill_star.svg') }}" alt="Rating">
                         </div>
                         <div class="socialIcon_div">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/instagram.svg') }}" alt="Instagram">
+                            <img class="lazyload" data-src="{{ asset('/public/images/instagram.svg') }}" alt="Instagram">
                         </div>
                     </div>
                 </div>
                 <div class="t_footer d-flex align-items-center gap-2">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/client2.svg') }}" alt="Client">
+                    <img class="lazyload" data-src="{{ asset('/public/images/client2.svg') }}" alt="Client">
                     <div>
                         <p>Rachel Stewart</p>
                         <p>Creative Director</p>

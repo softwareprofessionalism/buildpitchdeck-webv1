@@ -20,7 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // ✅ Always force HTTPS, regardless of environment
-        URL::forceScheme('https');
+        if (request()->server('HTTP_X_FORWARDED_PROTO') === 'https') {
+            URL::forceScheme('https');
+        }
     }
 }

@@ -17,72 +17,72 @@
           <div class="slide-container">
               <a href="graphics-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/graphics_design_icon.svg') }}" alt="Info Graphics Design"
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/graphics_design_icon.svg') }}" alt="Info Graphics Design"
                           width="96" height="96" />
                       <h1 class="title2">
                           info<br> graphics<br> design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>
               <a href="book-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/playBook_design_icon.svg') }}" alt="Play Book Design"
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/playBook_design_icon.svg') }}" alt="Play Book Design"
                           width="96" height="96" />
                       <h1 class="title2">
                           Play<br> book<br> design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>
               <a href="pitch-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/pitch_design_icon.svg') }}" alt="Pitch Deck Design" />
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/pitch_design_icon.svg') }}" alt="Pitch Deck Design" />
                       <h1 class="title2">
                           Pitch<br> deck<br> design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>
               <a href="communication-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/communication_design_icon.svg') }}"
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/communication_design_icon.svg') }}"
                           alt="Communication Design " width="96" height="96" />
                       <h1 class="title2 comm_heading">
                           communication design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>
               <a href="brand-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/brand_design_icon.svg') }}" alt="Brand Identity Design"
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/brand_design_icon.svg') }}" alt="Brand Identity Design"
                           width="96" height="96" />
                       <h1 class="title2">
                           Brand<br> identity<br> Design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>
               <a href="presentation-design-steps.html" class="slide">
                   <div class="pack_div">
-                      <img class="lazyload" data-src="{{ asset('resources/images/presentation_design_icon.svg') }}" alt="presentation Design"
+                      <img class="lazyload" data-src="{{ secure_asset('resources/images/presentation_design_icon.svg') }}" alt="presentation Design"
                           width="96" height="96" />
                       <h1 class="title2">
                           Presentation<br> Design
                       </h1>
                       <div class="right_icon">
-                          <img class="lazyload" data-src="{{ asset('resources/images/right_arrow.svg') }}" alt="Icon" />
+                          <img class="lazyload" data-src="{{ secure_asset('resources/images/right_arrow.svg') }}" alt="Icon" />
                       </div>
                   </div>
               </a>

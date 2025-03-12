@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="{{ asset('resources/images/favicon.svg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ secure_asset('resources/images/favicon.svg') }}" type="image/x-icon">
     <title>Build Pitchdeck</title>
 
     <!-- Bootstrap Css Cdn -->
@@ -35,10 +35,10 @@
         <div class="container">
             <div class="main_navbarclass d-flex justify-content-between align-items-center">
                 <a href="/" class="logo">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/logo.png') }}" alt="Logo" />
+                    <img class="lazyload" data-src="{{ secure_asset('/resources/images/logo.png') }}" alt="Logo" />
                 </a>
                 <div class="hamburder_icon">
-                    <img class="lazyload" data-src="{{ asset('/resources/images/hamburger.svg') }}" alt="Menu Icon" />
+                    <img class="lazyload" data-src="{{ secure_asset('/resources/images/hamburger.svg') }}" alt="Menu Icon" />
                 </div>
                 <nav class="nav_links justify-content-lg-between align-items-lg-center">
                     <ul>
@@ -62,7 +62,7 @@
                             <a href="info-graphics-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/graphics_design_icon.svg') }}"
                                         alt="Graphics Design">
                                     <h3 class="text">info graphics design</h3>
                                 </div>
@@ -73,7 +73,7 @@
                                     instantly.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -82,7 +82,7 @@
                             <a href="play-book-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/playBook_design_icon.svg') }}"
                                         alt="play book design">
                                     <h3 class="text">Play book design</h3>
                                 </div>
@@ -93,7 +93,7 @@
                                     focused and on track.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -102,7 +102,7 @@
                             <a href="pitch-deck-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="Pitch deck design">
                                     <h3 class="text">Pitch deck design</h3>
                                 </div>
@@ -112,7 +112,7 @@
                                     needed funding.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -121,7 +121,7 @@
                             <a href="communication-design .html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="communication design ">
                                     <h3 class="text">communication design </h3>
                                 </div>
@@ -131,7 +131,7 @@
                                     channels.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -140,7 +140,7 @@
                             <a href="brand-identity-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/brand_design_icon.svg') }}"
                                         alt="Brand identity Design">
                                     <h3 class="text">Brand identity Design </h3>
                                 </div>
@@ -150,7 +150,7 @@
                                     you apart</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -159,7 +159,7 @@
                             <a href="presentation-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/presentation_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/presentation_design_icon.svg') }}"
                                         alt="presentation design">
                                     <h3 class="text">presentation design</h3>
                                 </div>
@@ -169,7 +169,7 @@
                                     impression.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -197,7 +197,7 @@
                             <a href="info-graphics-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/graphics_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/graphics_design_icon.svg') }}"
                                         alt="Graphics Design">
                                     <h3 class="text">info graphics design</h3>
                                 </div>
@@ -208,7 +208,7 @@
                                     instantly.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -217,7 +217,7 @@
                             <a href="play-book-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/playBook_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/playBook_design_icon.svg') }}"
                                         alt="play book design">
                                     <h3 class="text">Play book design</h3>
                                 </div>
@@ -228,7 +228,7 @@
                                     focused and on track.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -237,7 +237,7 @@
                             <a href="pitch-deck-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="Pitch deck design">
                                     <h3 class="text">Pitch deck design</h3>
                                 </div>
@@ -247,7 +247,7 @@
                                     needed funding.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -256,7 +256,7 @@
                             <a href="communication-design .html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/pitch_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/pitch_design_icon.svg') }}"
                                         alt="communication design ">
                                     <h3 class="text">communication design </h3>
                                 </div>
@@ -266,7 +266,7 @@
                                     channels.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -275,7 +275,7 @@
                             <a href="brand-identity-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/brand_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/brand_design_icon.svg') }}"
                                         alt="Brand identity Design">
                                     <h3 class="text">Brand identity Design </h3>
                                 </div>
@@ -285,7 +285,7 @@
                                     you apart</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -294,7 +294,7 @@
                             <a href="presentation-design.html">
                                 <div class="d-flex align-items-center gap-2">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/presentation_design_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/presentation_design_icon.svg') }}"
                                         alt="presentation design">
                                     <h3 class="text">presentation design</h3>
                                 </div>
@@ -304,7 +304,7 @@
                                     impression.</p>
                                 <div class="bottom_icon ms-auto mt-auto">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/service_arrow_icon.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/service_arrow_icon.svg') }}"
                                         alt="Arrow Icon">
                                 </div>
                             </a>
@@ -330,7 +330,7 @@
                 <div class="col-12 col-xl-4 col-lg-6 col-12 mb-xl-0 mb-5">
                     <div class="footer_content">
                         <a class="f_logo" href="/">
-                            <img class="lazyload" data-src="{{ asset('/resources/images/footer_logo.svg') }}"
+                            <img class="lazyload" data-src="{{ secure_asset('/resources/images/footer_logo.svg') }}"
                                 alt="Logo" />
                         </a>
                         <div>
@@ -347,23 +347,23 @@
                     <div class="footer_content">
                         <div class="social_icons d-flex justify-content-xl-center align-items-center gap-3">
                             <a href="javascript:;">
-                                <img class="lazyload" data-src="{{ asset('/resources/images/fb_icon.svg') }}"
+                                <img class="lazyload" data-src="{{ secure_asset('/resources/images/fb_icon.svg') }}"
                                     alt="Facebook" />
                             </a>
                             <a href="javascript:;">
-                                <img class="lazyload" data-src="{{ asset('/resources/images/tiktok_icon.svg') }}"
+                                <img class="lazyload" data-src="{{ secure_asset('/resources/images/tiktok_icon.svg') }}"
                                     alt="TikTok" />
                             </a>
                             <a href="javascript:;">
-                                <img class="lazyload" data-src="{{ asset('/resources/images/insta_icon.svg') }}"
+                                <img class="lazyload" data-src="{{ secure_asset('/resources/images/insta_icon.svg') }}"
                                     alt="Instagram" />
                             </a>
                             <a href="javascript:;">
-                                <img class="lazyload" data-src="{{ asset('/resources/images/twitter_icon.svg') }}"
+                                <img class="lazyload" data-src="{{ secure_asset('/resources/images/twitter_icon.svg') }}"
                                     alt="Twitter" />
                             </a>
                             <a href="javascript:;">
-                                <img class="lazyload" data-src="{{ asset('/resources/images/yt_icon.svg') }}"
+                                <img class="lazyload" data-src="{{ secure_asset('/resources/images/yt_icon.svg') }}"
                                     alt="Youtube" />
                             </a>
                         </div>
@@ -392,27 +392,27 @@
                             <div class="Certified_div d-flex align-items-center gap-2 flex-wrap">
                                 <a href="javascript:;">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/certificate_img1.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/certificate_img1.svg') }}"
                                         alt="Geo Trust" />
                                 </a>
                                 <a href="javascript:;">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/certificate_img2.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/certificate_img2.svg') }}"
                                         alt="DMCA" />
                                 </a>
                                 <a href="javascript:;">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/certificate_img3.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/certificate_img3.svg') }}"
                                         alt="Protect ED" />
                                 </a>
                                 <a href="javascript:;">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/certificate_img4.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/certificate_img4.svg') }}"
                                         alt="MCAfee" />
                                 </a>
                                 <a href="javascript:;">
                                     <img class="lazyload"
-                                        data-src="{{ asset('/resources/images/certificate_img5.svg') }}"
+                                        data-src="{{ secure_asset('/resources/images/certificate_img5.svg') }}"
                                         alt="ADA" />
                                 </a>
                             </div>
@@ -465,8 +465,8 @@
         });
     </script>
 
-    <script src="{{ asset('/resources/js/custom-gsap.js') }}"></script>
-    <script src="{{ asset('/resources/js/script.js') }}"></script>
+    <script src="{{ secure_asset('/resources/js/custom-gsap.js') }}"></script>
+    <script src="{{ secure_asset('/resources/js/script.js') }}"></script>
 
 </body>
 

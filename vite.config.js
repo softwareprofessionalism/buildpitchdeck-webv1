@@ -19,16 +19,6 @@ export default defineConfig({
         outDir: 'public/build', // ✅ Make sure assets are placed in public
         emptyOutDir: true, // ✅ Clears old assets
         manifest: true, // ✅ Required for Laravel to find assets
-        rollupOptions: {
-            input: {
-                main: 'resources/js/app.js',
-            },
-            output: {
-                assetFileNames: 'assets/[name].[hash][extname]', // ✅ Ensures unique hashed filenames
-                chunkFileNames: 'assets/[name].[hash].js',
-                entryFileNames: 'assets/[name].[hash].js',
-            }
-        }
     },
     server: {
         strictPort: true,
